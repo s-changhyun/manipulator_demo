@@ -1,0 +1,153 @@
+joint1 :   # H54-200-S500-R
+   return_delay_time     :  10    
+   operating_mode        :  3     
+   shutdown              :  58    
+   homing_offset         :  0
+   torque_limit          :  1240
+   max_position_limit    :  250950
+   min_position_limit    : -250950
+   goal_torque           : 1240
+   goal_velocity         : 0
+   goal_acceleration     : 0
+   position_P_gain       : 45
+   velocity_P_gain       : 308
+   velocity_I_gain       : 773
+   indirect_address_1    :
+     1  :                        
+       - present_position        
+       - present_velocity        
+       - present_current         
+       - present_voltage         
+       - present_temperature
+
+joint2 :   # H54-200-S500-R
+   return_delay_time     :  10    
+   operating_mode        :  3     
+   shutdown              :  58    
+   homing_offset         :  0
+   torque_limit          :  1240
+   max_position_limit    :  250950
+   min_position_limit    : -250950
+   goal_torque           : 1240
+   goal_velocity         : 0
+   goal_acceleration     : 0
+   position_P_gain       : 45
+   velocity_P_gain       : 308
+   velocity_I_gain       : 773
+   indirect_address_1    :
+     1  :                        
+       - present_position        
+       - present_velocity        
+       - present_current         
+       - present_voltage         
+       - present_temperature  
+
+joint3 :   # H54-100-S500-R
+   return_delay_time     :  10    # item name : value
+   operating_mode        :  3
+   shutdown              :  58
+   homing_offset         :  -62738   # 45 deg
+   torque_limit          :  310
+   max_position_limit    :  250950
+   min_position_limit    : -250950
+   goal_torque           : 310
+   goal_velocity         : 0
+   goal_acceleration     : 0
+   position_P_gain       : 45
+   velocity_P_gain       : 180
+   velocity_I_gain       : 452
+   indirect_address_1    :       # indirect address
+     1  :                          # start index (1 ~ 256)
+       - present_position            # addr length : 4
+       - present_velocity            # addr length : 4
+       - present_current             # addr length : 2
+       - present_voltage             # addr length : 2
+       - present_temperature         # addr length : 1
+
+joint4 :   # H54-100-S500-R
+   return_delay_time     :  10    # item name : value
+   operating_mode        :  3
+   shutdown              :  58
+   homing_offset         :  0
+   torque_limit          :  310
+   max_position_limit    :  250950
+   min_position_limit    : -250950
+   goal_torque           : 310
+   goal_velocity         : 0
+   goal_acceleration     : 0
+   position_P_gain       : 45
+   velocity_P_gain       : 180
+   velocity_I_gain       : 452
+   indirect_address_1    :       # indirect address
+     1  :                          # start index (1 ~ 256)
+       - present_position            # addr length : 4
+       - present_velocity            # addr length : 4
+       - present_current             # addr length : 2
+       - present_voltage             # addr length : 2
+       - present_temperature         # addr length : 1
+
+joint5  :   # H42-20-S300-R
+   return_delay_time     : 10    
+   operating_mode        : 3     
+   shutdown              : 58    
+   homing_offset         : 0     
+   torque_limit          : 372
+   max_position_limit    : 151900
+   min_position_limit    : -151900
+   goal_torque           : 372
+   goal_velocity         : 0
+   goal_acceleration     : 0
+   position_P_gain       : 64
+   velocity_P_gain       : 440
+   velocity_I_gain       : 40
+   indirect_address_1    :
+     1  :                        
+       - present_position        
+       - present_velocity        
+       - present_current         
+       - present_voltage         
+       - present_temperature
+
+joint6  :   # H42-20-S300-R
+   return_delay_time     : 10    
+   operating_mode        : 3     
+   shutdown              : 58    
+   homing_offset         : 0     
+   torque_limit          : 372
+   max_position_limit    : 151900
+   min_position_limit    : -151900
+   goal_torque           : 372
+   goal_velocity         : 0
+   goal_acceleration     : 0
+   position_P_gain       : 64
+   velocity_P_gain       : 440
+   velocity_I_gain       : 40
+   indirect_address_1    :
+     1  :                        
+       - present_position        
+       - present_velocity        
+       - present_current         
+       - present_voltage         
+       - present_temperature
+
+grip  :   # GRIPPER
+   return_delay_time     :   10    
+   operating_mode        :    3     
+   shutdown              :   48    
+   #homing_offset        :    0  there is no homming offset in ctrl table of gripper
+   torque_limit          :  500
+   max_position_limit    :  750
+   min_position_limit    :    0
+   goal_torque           :  310
+   goal_velocity         :    0
+   goal_acceleration     :    0
+   position_P_gain       :   64
+   velocity_P_gain       :  440
+   velocity_I_gain       :   40
+   indirect_address_1    :       
+     1  :                        
+       - present_position        
+       - present_velocity        
+       - present_current         
+       - present_voltage         
+       - present_temperature     

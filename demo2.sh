@@ -1,0 +1,1 @@
+roslaunch manipulator_manager manipulator_manager.launch
